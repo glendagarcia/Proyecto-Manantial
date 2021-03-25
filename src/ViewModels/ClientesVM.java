@@ -98,6 +98,7 @@ private JCheckBox _checkBoxCredito;
                                                         _label.get(0).setForeground(Color.RED);
                                                         _textField.get(0).requestFocus();
                                                     }
+                                                     
                                                  }
                                              }catch (SQLException ex) {
                                                 JOptionPane.showMessageDialog(null, ex);
