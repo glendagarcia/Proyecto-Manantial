@@ -32,6 +32,7 @@ public class ClientesVM extends Consult {
 private JCheckBox _checkBoxCredito;
     public ClientesVM(Object[] objects, ArrayList<JLabel> label, ArrayList<JTextField> textField) {
         _label = label;
+        
         _textField = textField;
         _checkBoxCredito = (JCheckBox) objects[0];
     }
